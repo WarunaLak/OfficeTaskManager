@@ -1,8 +1,10 @@
-package com.waruna.officetaskmanager;
+package com.waruna.officetaskmanager.ui.auth;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.waruna.officetaskmanager.R;
 
 public class LoginActivity extends AppCompatActivity {
 
