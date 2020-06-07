@@ -1,6 +1,7 @@
 package com.waruna.officetaskmanager.data.db;
 
 import androidx.lifecycle.LiveData;
+import androidx.room.Dao;
 import androidx.room.Delete;
 import androidx.room.Insert;
 import androidx.room.Query;
@@ -10,6 +11,7 @@ import com.waruna.officetaskmanager.data.db.entities.Inquiry;
 
 import java.util.List;
 
+@Dao
 public interface InquiryDao {
 
     @Insert

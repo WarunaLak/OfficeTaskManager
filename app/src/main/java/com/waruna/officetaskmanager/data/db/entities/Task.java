@@ -67,12 +67,11 @@ public class Task {
         return taskDetails;
     }
 
-    public String getsDate() {
+    public String getSDate() {
         return sDate;
     }
 
-    public String geteDate() {
+    public String getEDate() {
         return eDate;
     }
-
 }
